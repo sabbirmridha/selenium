@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+}
+
+group = 'org.example'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    // https://mvnrepository.com/artifact/org.testng/testng
+    testImplementation("org.testng:testng:7.11.0")
+
+    // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
+    implementation("org.seleniumhq.selenium:selenium-java:4.34.0")
+
+    //implementation 'ch.qos.logback:logback-classic:1.2.11'
+
+    //implementation 'org.seleniumhq.selenium:selenium-devtools-v138:4.25.0'
+
+    //implementation 'org.seleniumhq.selenium:selenium-devtools-v138:4.25.0'
+}
+
