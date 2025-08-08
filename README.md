@@ -10,7 +10,7 @@
 * Configure environment path
 * Stable internet connection
 
-## Framework Used :
+## Framework Used 
 
    TestNG
 
@@ -18,14 +18,14 @@
 ## Project Overview :
 Performed Test automation using TestNG Framework for a Web Application Portal.
 
-## Features which are Automated :
+## Features which are Automated 
 
 * Registration 
 * Login 
 * User Search
 * User Profile View
 
-## Videos of Test Automation :
+## Videos of Test Automation 
 
 * Registration-
   
