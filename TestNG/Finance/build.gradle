@@ -17,10 +17,12 @@ dependencies {
     // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
     implementation("org.seleniumhq.selenium:selenium-java:4.34.0")
 
-    //implementation 'ch.qos.logback:logback-classic:1.2.11'
 
-    //implementation 'org.seleniumhq.selenium:selenium-devtools-v138:4.25.0'
+    // https://mvnrepository.com/artifact/com.github.javafaker/javafaker
+    implementation("com.github.javafaker:javafaker:1.0.2")
 
-    //implementation 'org.seleniumhq.selenium:selenium-devtools-v138:4.25.0'
+    // https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple
+    implementation("com.googlecode.json-simple:json-simple:1.1.1")
+
 }
 

@@ -29,9 +29,9 @@ public class searchTestRunner extends Setup {
     public void mySearch(){
 
         yLogin();
-       // driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(40));
+       driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(40));
         searchPage = new Search(driver);
-        searchPage.doSearch("sabbir");
+        searchPage.doSearch("Sabbir");
 
 
 
